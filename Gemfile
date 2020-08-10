@@ -46,6 +46,7 @@ group :development, :test do
   gem 'factory_bot_rails'
   gem 'rails-controller-testing'
   gem 'capybara'
+  gem 'sqlite3'
 end
 
 group :development do
@@ -74,3 +75,7 @@ gem 'sprockets', '3.7.2'
 gem 'devise'
 gem 'kaminari'
 gem 'jquery-rails'
+
+group :production do
+  gem 'pg'
+end
